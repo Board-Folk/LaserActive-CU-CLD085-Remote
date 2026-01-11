@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pioneer")(type "KiCad")(uri "${KIPRJMOD}/libs/Pioneer.kicad_sym")(options "")(descr ""))
+)
