@@ -1,0 +1,213 @@
+(footprint "Button"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.ckswitches.com/media/1465/kxt3.pdf")
+	(tags "Switch SPST KXT3")
+	(property "Reference" "K4"
+		(at 0.09 0.49 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e02e5f32-1758-4710-a5b6-26b88a74ee85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Button"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "64d6e230-b153-4ebf-b561-c3e7a42eaf9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b4113e-4889-40ed-9f62-da6ab5095c38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81d7db24-0b0d-4675-9cc8-1670985bdf3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -0.65)
+		(end -1.75 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fca874cb-5c35-488b-b22e-1e94edb310b4")
+	)
+	(fp_line
+		(start -1.75 -0.4)
+		(end -1.5 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9005a2f-66a4-42e2-9c11-3ac16d7e6359")
+	)
+	(fp_line
+		(start -1.75 0.4)
+		(end -1.75 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28ce0cba-067a-465d-bd02-9db81abb8fcb")
+	)
+	(fp_line
+		(start -1.75 0.65)
+		(end -1.5 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52640aac-67f2-4bf7-84d2-b72914a2230b")
+	)
+	(fp_line
+		(start -1.5 -0.65)
+		(end -1.75 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fcf464f-5b7a-4a05-9514-3d748c5b781e")
+	)
+	(fp_line
+		(start -1.5 0.15)
+		(end -1.75 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f81aeae0-ef52-4f4c-b6df-4862ae819cd9")
+	)
+	(fp_line
+		(start 1.5 -0.65)
+		(end 1.75 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e1a5663-5dea-4874-88bf-6e60b2855f85")
+	)
+	(fp_line
+		(start 1.5 0.15)
+		(end 1.75 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c92752b-ca4d-4863-8811-f68a7c2abb1b")
+	)
+	(fp_line
+		(start 1.75 -0.65)
+		(end 1.75 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f430a18-da9a-4947-ad21-a6f9f278526e")
+	)
+	(fp_line
+		(start 1.75 -0.4)
+		(end 1.5 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e8e1dd3-95cf-43a1-9d3d-5a8dd5704cc8")
+	)
+	(fp_line
+		(start 1.75 0.4)
+		(end 1.75 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b440c496-ce0f-4a71-9c66-49c5b69a7fc5")
+	)
+	(fp_line
+		(start 1.75 0.65)
+		(end 1.5 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f1daedc-9a60-4021-a83b-6af8873c5f2f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "aa91a2e8-ba24-4fdd-9cc0-49d81b87ad9f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.01 -0.02 90)
+		(size 0.55 6.4)
+		(layers "B.Cu" "B.Mask")
+		(uuid "c7b24ac0-7b22-472e-b969-20f6d1371bb9")
+	)
+	(pad "2" smd rect
+		(at 0.56 0.93 90)
+		(size 0.55 6.38)
+		(layers "B.Cu" "B.Mask")
+		(uuid "10ce00d0-cc15-41f9-837c-c5a3ff579723")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_KXT3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
