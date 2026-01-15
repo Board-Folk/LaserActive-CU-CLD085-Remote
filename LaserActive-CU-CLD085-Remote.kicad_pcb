@@ -154,7 +154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -166,7 +166,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2386,11 +2386,11 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "365adc2b-d817-40dc-9d1b-b36065abe4f9")
-		(at 134.858284 44.93453)
+		(at 137.358284 47.44 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
-		(property "Reference" "C2"
-			(at 4.749997 0.980541 0)
+		(property "Reference" "C3"
+			(at -1.931716 -0.87 0)
 			(layer "F.SilkS")
 			(uuid "863b9c4f-e82d-4848-ae06-1da206ba6ddd")
 			(effects
@@ -2441,16 +2441,6 @@
 		(sheetfile "LaserActive-CU-CLD085-Remote.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.485 -0.92)
-			(end 2.015 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1627282c-e2fd-4d27-b273-64ed306af424")
-		)
-		(fp_line
 			(start 0.485 0.92)
 			(end 2.015 0.92)
 			(stroke
@@ -2459,6 +2449,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "83450976-9b6a-4459-b99c-5f26b54d7100")
+		)
+		(fp_line
+			(start 0.485 -0.92)
+			(end 2.015 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1627282c-e2fd-4d27-b273-64ed306af424")
 		)
 		(fp_rect
 			(start -1.05 -1.05)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2504,7 +2504,7 @@
 			(uuid "1643eac8-4000-4b8e-a03a-9525c948cee9")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3186,10 +3186,10 @@
 	(footprint "Pioneer:Crystal"
 		(layer "F.Cu")
 		(uuid "7182780a-1c51-499f-b09d-67b04875267c")
-		(at 134.992689 50.924547)
+		(at 134.91 51.07)
 		(descr "HC-18/U, Crystal, http://5hertz.com/pdfs/04404_D.pdf")
 		(property "Reference" "X1"
-			(at 2.74 2.24 0)
+			(at 2.72 2.3 0)
 			(layer "F.SilkS")
 			(uuid "9aabfae3-86be-4896-9ae4-2c3e862d61de")
 			(effects
@@ -3878,11 +3878,11 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "889d3619-4974-44f7-b0f6-507c97616472")
-		(at 134.857144 47.458016)
+		(at 137.357144 44.87 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
-		(property "Reference" "C3"
-			(at 4.677616 1.290325 0)
+		(property "Reference" "C2"
+			(at -1.912856 -1.08 0)
 			(layer "F.SilkS")
 			(uuid "f6e1eaca-370d-4501-884e-8ac094a18785")
 			(effects
@@ -3933,16 +3933,6 @@
 		(sheetfile "LaserActive-CU-CLD085-Remote.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.485 -0.92)
-			(end 2.015 -0.92)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "33b04890-580c-4a47-a74c-2b38a44d7851")
-		)
-		(fp_line
 			(start 0.485 0.92)
 			(end 2.015 0.92)
 			(stroke
@@ -3951,6 +3941,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e6c7ae58-be63-4e84-8938-81a923553dce")
+		)
+		(fp_line
+			(start 0.485 -0.92)
+			(end 2.015 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "33b04890-580c-4a47-a74c-2b38a44d7851")
 		)
 		(fp_rect
 			(start -1.05 -1.05)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3996,7 +3996,7 @@
 			(uuid "7d901327-f677-4fc7-85c0-b87614dd1d47")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -64866,6 +64866,166 @@
 		(uuid "c31b5f4c-ae4e-479d-925b-fa12a4e8106d")
 	)
 	(segment
+		(start 132.93 51.9)
+		(end 132.93 43.55)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "16dccfce-4856-4002-9f3e-42fce24c326f")
+	)
+	(segment
+		(start 134.063699 42.416301)
+		(end 134.856671 42.416301)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "47a1a2d2-fb43-4d54-b0c6-7143204db476")
+	)
+	(segment
+		(start 132.93 43.55)
+		(end 134.063699 42.416301)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "69b78d8f-3d53-4631-81b3-04b890c83054")
+	)
+	(segment
+		(start 141.9 55.116511)
+		(end 140.393489 53.61)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "81a3d71c-f35a-4c1e-92fc-9988970a42f0")
+	)
+	(segment
+		(start 134.64 53.61)
+		(end 132.93 51.9)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "a843527e-b6c6-42c8-aca4-c1ca8c84cd7b")
+	)
+	(segment
+		(start 140.393489 53.61)
+		(end 134.64 53.61)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "f833f688-53d4-4233-9bbc-0477c4f65c63")
+	)
+	(segment
+		(start 134.858284 47.44)
+		(end 136.918284 49.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "05b5937d-a9fd-47c3-8f84-0724ddce63c6")
+	)
+	(segment
+		(start 147.18 53.66)
+		(end 144.59 51.07)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "33edbeda-2402-44b7-9217-a39b8fcda4ea")
+	)
+	(segment
+		(start 144.59 51.07)
+		(end 139.81 51.07)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "4c2d6a67-11ab-453e-857c-5e288c6c33b9")
+	)
+	(segment
+		(start 147.18 55.116511)
+		(end 147.18 53.66)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "79b743fd-fec5-4737-9f01-64cda6a463b0")
+	)
+	(segment
+		(start 138.24 49.5)
+		(end 139.81 51.07)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "e808f306-ec0a-4114-a46b-b7c3d2c23b17")
+	)
+	(segment
+		(start 136.918284 49.5)
+		(end 138.24 49.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "fc4d64b7-ec4a-4b35-b3c9-4bbbf0907bb5")
+	)
+	(segment
+		(start 134.91 51.07)
+		(end 133.42 49.58)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "37da5f1d-3d3c-4341-a356-4abcca0fd62d")
+	)
+	(segment
+		(start 145.42 53.87)
+		(end 145.42 55.116511)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "53532153-b8ff-4d3b-96ce-1fd151e45e99")
+	)
+	(segment
+		(start 134.44 44.87)
+		(end 134.857144 44.87)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "68a271b3-a128-42cd-840b-b5ea656ce037")
+	)
+	(segment
+		(start 134.91 51.07)
+		(end 136.93 53.09)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "c5dc922d-a965-4c93-aa59-8ed9e9d8b67e")
+	)
+	(segment
+		(start 144.64 53.09)
+		(end 145.42 53.87)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "cbb6e4f8-31c7-4074-aba0-66da4b06b3ee")
+	)
+	(segment
+		(start 133.42 49.58)
+		(end 133.42 45.89)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "cd7eb4de-46c3-4f94-9182-8a8286babccd")
+	)
+	(segment
+		(start 136.93 53.09)
+		(end 144.64 53.09)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "d32cb84b-d31c-416e-8efb-28ddb9f7ded6")
+	)
+	(segment
+		(start 133.42 45.89)
+		(end 134.44 44.87)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "d8b0d8a6-cc8f-4786-8230-aa0d0520a88d")
+	)
+	(segment
 		(start 151.32 59.87)
 		(end 153.38 57.81)
 		(width 0.2)
@@ -68004,6 +68164,41 @@
 				(xy 141.480296 87.99) (xy 141.62 87.99) (xy 141.62 86.56) (xy 135.149 86.56) (xy 135.114352 86.545648)
 				(xy 135.1 86.511) (xy 135.1 84.890296) (xy 135.114352 84.855648) (xy 136.055648 83.914352) (xy 136.090296 83.9)
 				(xy 152.089704 83.9)
+			)
+		)
+	)
+	(zone
+		(net 2)
+		(net_name "GND")
+		(layer "B.Cu")
+		(uuid "c08c7200-570b-443d-b822-15948564a220")
+		(hatch edge 0.5)
+		(priority 15)
+		(connect_pads yes
+			(clearance 0.25)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 136.4 48.32) (xy 136.81 48.73) (xy 138.09 48.73) (xy 138.8 48.02) (xy 138.8 46.96) (xy 141.18 44.58)
+				(xy 141.18 40.51) (xy 138.61 40.51) (xy 138.61 43.77) (xy 136.4 43.77)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 141.05603 40.557758) (xy 141.123061 40.577455) (xy 141.168805 40.630268) (xy 141.18 40.681757)
+				(xy 141.18 44.528638) (xy 141.160315 44.595677) (xy 141.143681 44.616319) (xy 138.8 46.959999) (xy 138.8 47.968638)
+				(xy 138.780315 48.035677) (xy 138.763681 48.056319) (xy 138.126319 48.693681) (xy 138.064996 48.727166)
+				(xy 138.038638 48.73) (xy 136.861362 48.73) (xy 136.794323 48.710315) (xy 136.773681 48.693681)
+				(xy 136.436319 48.356319) (xy 136.402834 48.294996) (xy 136.4 48.268638) (xy 136.4 43.894) (xy 136.419685 43.826961)
+				(xy 136.472489 43.781206) (xy 136.524 43.77) (xy 138.61 43.77) (xy 138.61 40.681286) (xy 138.629685 40.614247)
+				(xy 138.682489 40.568492) (xy 138.734021 40.557286)
 			)
 		)
 	)
