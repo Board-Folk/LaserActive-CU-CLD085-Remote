@@ -2429,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 120.65 67.31)
+			(xy 100.33 67.31) (xy 128.27 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2449,16 +2449,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 156.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb7714d-efe0-49e1-b6a4-76eb268e07c1")
-	)
-	(wire
-		(pts
 			(xy 69.85 57.15) (xy 53.34 57.15)
 		)
 		(stroke
@@ -2466,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "10a1ca4a-e5f0-4ec6-af72-cc9ee22b1864")
+	)
+	(wire
+		(pts
+			(xy 135.89 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a17ac9f-10b6-437a-bfb0-a487c778e6f2")
 	)
 	(wire
 		(pts
@@ -2796,6 +2796,16 @@
 			(type default)
 		)
 		(uuid "d002d17d-2871-42ac-b69a-dab117ee9a05")
+	)
+	(wire
+		(pts
+			(xy 135.89 62.23) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52524e1-0f7e-459b-82fc-4ec42a61baf5")
 	)
 	(wire
 		(pts
@@ -3813,7 +3823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 72.39 0)
+		(at 128.27 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3822,7 +3832,7 @@
 		(fields_autoplaced yes)
 		(uuid "15ecda93-2b55-4766-82aa-852927d34ad8")
 		(property "Reference" "#PWR04"
-			(at 128.27 78.74 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 77.47 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +3849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 72.39 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 72.39 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 72.39 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,16 +5294,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 125.73 67.31 0)
+		(at 130.81 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c7bd514-009e-4d10-82c1-400eade2f72c")
 		(property "Reference" "Q1"
-			(at 130.81 66.0399 0)
+			(at 125.73 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5312,7 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 130.81 68.5799 0)
+			(at 125.73 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5321,7 @@
 			)
 		)
 		(property "Footprint" "Pioneer:TO-220-3"
-			(at 189.23 67.31 0)
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 67.31 0)
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 67.31 0)
+			(at 130.81 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5348,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 125.73 67.31 0)
+			(at 130.81 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5357,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 125.73 67.31 0)
+			(at 130.81 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5366,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 125.73 67.31 0)
+			(at 130.81 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
