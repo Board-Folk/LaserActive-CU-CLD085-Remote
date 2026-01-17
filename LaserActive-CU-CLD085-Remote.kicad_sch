@@ -6350,7 +6350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B+"
+		(property "Value" "B-"
 			(at 245.11 80.0099 0)
 			(effects
 				(font

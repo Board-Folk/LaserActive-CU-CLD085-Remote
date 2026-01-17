@@ -1712,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Value" "B+"
+		(property "Value" "B-"
 			(at 0 2.38 0)
 			(layer "F.Fab")
 			(uuid "77d2f36e-40f9-40fe-8192-dd05f5535116")
