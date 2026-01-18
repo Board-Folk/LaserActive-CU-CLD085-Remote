@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
-%TF.CreationDate,2026-01-18T12:44:36+00:00*%
-%TF.ProjectId,LaserActive-CU-CLD085-Remote,4c617365-7241-4637-9469-76652d43552d,rev?*%
+%TF.CreationDate,2026-01-18T13:04:29+00:00*%
+%TF.ProjectId,LaserActive-CU-CLD085-Remote,4c617365-7241-4637-9469-76652d43552d,1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2) date 2026-01-18 12:44:36*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2026-01-18 13:04:29*
 %MOMM*%
 %LPD*%
 G01*
