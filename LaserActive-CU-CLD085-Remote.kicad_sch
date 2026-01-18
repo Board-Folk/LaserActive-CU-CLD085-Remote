@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0003d985-390a-41d3-bb3f-5e7567d09c25")
 	(paper "A4")
+	(title_block
+		(title "Laser Active CU-CLD085 Remote Control")
+		(date "2026-01-18")
+		(rev "1.0")
+		(company "Board Folk")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
