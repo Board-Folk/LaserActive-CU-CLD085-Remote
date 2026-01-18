@@ -5932,7 +5932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pioneer:Battery Terminal"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -6341,7 +6341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Pioneer:Battery Terminal"
 			(at 242.57 78.74 0)
 			(effects
 				(font
