@@ -6,7 +6,7 @@
 	(descr "20-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 	(property "Reference" "IC1"
-		(at 10.003598 12.11895 270)
+		(at 10.3632 8.1788 270)
 		(layer "F.SilkS")
 		(uuid "84bf3417-5f71-4522-ab2e-c7eda6bb5374")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "D6600CS"
-		(at 3.81 25.19 180)
+		(at 3.7592 18.3896 180)
 		(layer "F.Fab")
 		(uuid "563e3685-57f6-4b6b-b2dd-3d987c4b2697")
 		(effects
@@ -116,7 +116,7 @@
 	)
 	(fp_rect
 		(start -1.52 -1.58)
-		(end 9.14 24.44)
+		(end 9.14 17.4804)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -136,7 +136,7 @@
 		(uuid "6824dac9-ba67-48e6-a926-d4d01e9acb16")
 	)
 	(fp_line
-		(start 0.635 24.13)
+		(start 0.635 17.46)
 		(end 0.635 -0.27)
 		(stroke
 			(width 0.1)
@@ -157,7 +157,7 @@
 	)
 	(fp_line
 		(start 6.985 -1.27)
-		(end 6.985 24.13)
+		(end 6.985 17.46)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -166,8 +166,8 @@
 		(uuid "4d696ddd-fd35-419a-9cd7-ea34b8eb179b")
 	)
 	(fp_line
-		(start 6.985 24.13)
-		(end 0.635 24.13)
+		(start 6.985 17.46)
+		(end 0.635 17.46)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -177,7 +177,7 @@
 	)
 	(fp_rect
 		(start -1.27 -1.33)
-		(end 8.89 24.19)
+		(end 8.89 17.459)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -187,7 +187,7 @@
 		(uuid "3bab6dbf-0ad1-4936-a023-fdb2026aac77")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.81 11.43 90)
+		(at 3.81 8.035 90)
 		(layer "F.Fab")
 		(uuid "6896da96-1436-4227-972f-b27d147ec090")
 		(effects

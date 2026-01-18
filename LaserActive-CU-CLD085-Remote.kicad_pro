@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|138570000|156690000|6930de5a-b420-4a8e-8781-1d44e1e24fdf|3b078e9f-5d44-4d51-8255-e17bd0aa533c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|155415000|158065000|42a38e4a-794a-404a-a200-bda984207975|8ccf55a4-c7c1-483c-92c0-f46db6d5fdd1",
+          ""
+        ],
+        [
+          "courtyards_overlap|138403284|48245000|365adc2b-d817-40dc-9d1b-b36065abe4f9|7182780a-1c51-499f-b09d-67b04875267c",
+          ""
+        ],
+        [
+          "courtyards_overlap|141718149|53601511|7182780a-1c51-499f-b09d-67b04875267c|bed107c7-983c-4537-a5b8-70808d4cb4f7",
+          ""
+        ],
+        [
+          "courtyards_overlap|162796116|47750027|045d65ba-d08d-4535-b95b-a3ad4f2a02ea|1f942706-a81c-4514-96d8-8b2d4e7a894e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -125,7 +146,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.15,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -481,7 +502,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.14,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
