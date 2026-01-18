@@ -593,7 +593,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Dual_CommonAnode_AKK"
+		(symbol "Device:D_Dual_CommonAnode_KAK_Parallel"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -602,15 +602,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 1.27 -2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_Dual_CommonAnode_AKK"
-				(at 0 2.54 0)
+			(property "Value" "D_Dual_CommonAnode_KAK_Parallel"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -618,7 +618,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -627,7 +627,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -653,10 +653,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Dual_CommonAnode_AKK_0_1"
+			(symbol "D_Dual_CommonAnode_KAK_Parallel_0_0"
 				(polyline
 					(pts
-						(xy -3.81 1.27) (xy -3.81 -1.27) (xy -3.81 -1.27)
+						(xy 2.54 3.81) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -668,19 +668,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -3.81 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+						(xy 2.54 -1.27) (xy 2.54 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -690,20 +678,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "D_Dual_CommonAnode_KAK_Parallel_0_1"
 				(circle
-					(center 0 0)
+					(center -1.27 0)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -715,7 +693,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 2.54 2.54) (xy 0 1.27) (xy 0 3.81) (xy 0 3.81) (xy 0 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -727,7 +717,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+						(xy 0 -1.27) (xy 2.54 -2.54) (xy 0 -3.81) (xy 0 -1.27) (xy 0 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -737,10 +727,22 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "K"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -756,9 +758,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,8 +776,8 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
+					(at 5.08 -2.54 180)
+					(length 2.54)
 					(name "K"
 						(effects
 							(font
@@ -1531,250 +1533,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1915,6 +1673,211 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BF457"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BF457"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN HV High Voltage Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?126*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BF457_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BF457_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2374,7 +2337,7 @@
 		(uuid "b3c9827d-a85f-4f11-bb8e-633390d5df5c")
 	)
 	(junction
-		(at 175.26 62.23)
+		(at 175.26 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1e0dffa-89b3-42fc-9e26-e033e7fc6e65")
@@ -2429,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 128.27 67.31)
+			(xy 100.33 67.31) (xy 123.19 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2449,17 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 53.34 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a1ca4a-e5f0-4ec6-af72-cc9ee22b1864")
-	)
-	(wire
-		(pts
-			(xy 135.89 62.23) (xy 156.21 62.23)
+			(xy 133.35 67.31) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2499,6 +2452,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 20.32) (xy 44.45 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7ee8b6-6379-4f29-973c-77f476c48c75")
+	)
+	(wire
+		(pts
+			(xy 40.64 20.32) (xy 44.45 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd5de69-b919-4683-a69f-78b2dd7a0d9f")
+	)
+	(wire
+		(pts
 			(xy 24.13 137.16) (xy 24.13 147.32)
 		)
 		(stroke
@@ -2529,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 180.34 62.23)
+			(xy 175.26 67.31) (xy 180.34 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2546,16 +2519,6 @@
 			(type default)
 		)
 		(uuid "54693b9a-2ac9-4b0b-81d8-7c8702374abc")
-	)
-	(wire
-		(pts
-			(xy 53.34 27.94) (xy 53.34 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57b23366-82eb-496a-b1ec-cf76c95285a9")
 	)
 	(wire
 		(pts
@@ -2579,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 175.26 69.85)
+			(xy 175.26 67.31) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2596,6 +2559,26 @@
 			(type default)
 		)
 		(uuid "7ffbc47a-40b7-4528-9307-03a8c2b24f28")
+	)
+	(wire
+		(pts
+			(xy 46.99 35.56) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f99f20-fcc7-4fb8-ad23-4ed20197ac51")
+	)
+	(wire
+		(pts
+			(xy 46.99 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac70121-9179-4128-8d8b-b2e12f8cf882")
 	)
 	(wire
 		(pts
@@ -2629,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 62.23) (xy 163.83 62.23)
+			(xy 170.18 67.31) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2796,16 +2779,6 @@
 			(type default)
 		)
 		(uuid "d002d17d-2871-42ac-b69a-dab117ee9a05")
-	)
-	(wire
-		(pts
-			(xy 135.89 62.23) (xy 135.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52524e1-0f7e-459b-82fc-4ec42a61baf5")
 	)
 	(wire
 		(pts
@@ -2987,22 +2960,22 @@
 	)
 	(global_label "ROW_4"
 		(shape output)
-		(at 60.96 22.86 0)
+		(at 41.91 35.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2fd47dbd-aebd-45fe-9bbf-b6c71607597e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.1742 22.86 0)
+			(at 41.91 44.7742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3800,8 +3773,8 @@
 		)
 	)
 	(global_label "ROW_6"
-		(shape output)
-		(at 45.72 22.86 180)
+		(shape input)
+		(at 40.64 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3811,7 +3784,7 @@
 		)
 		(uuid "f7fc2438-d3f1-441a-984c-9ee0466362da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.8968 22.86 0)
+			(at 31.4258 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 77.47 0)
+		(at 128.27 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3832,7 +3805,7 @@
 		(fields_autoplaced yes)
 		(uuid "15ecda93-2b55-4766-82aa-852927d34ad8")
 		(property "Reference" "#PWR04"
-			(at 128.27 83.82 0)
+			(at 128.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 82.55 0)
+			(at 128.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 77.47 0)
+			(at 128.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 77.47 0)
+			(at 128.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 77.47 0)
+			(at 128.27 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "100pF"
 			(at 27.94 79.248 90)
 			(effects
 				(font
@@ -4576,7 +4549,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "100pF"
 			(at 27.9463 60.96 90)
 			(effects
 				(font
@@ -4628,7 +4601,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 175.26 72.39 0)
+		(at 175.26 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4637,7 +4610,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fd875a8-bc1a-4972-adfd-382394892724")
 		(property "Reference" "C4"
-			(at 177.8 70.5738 0)
+			(at 177.8 75.6538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4619,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 177.8 73.1138 0)
+			(at 177.8 78.1938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4628,7 @@
 			)
 		)
 		(property "Footprint" "Pioneer:Electrolytic_P2.50mm"
-			(at 175.26 72.39 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 72.39 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4646,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 175.26 72.39 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,9 +5266,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 130.81 72.39 0)
-		(mirror y)
+		(lib_id "Transistor_BJT:BF457")
+		(at 128.27 69.85 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5303,25 +5276,23 @@
 		(dnp no)
 		(uuid "7c7bd514-009e-4d10-82c1-400eade2f72c")
 		(property "Reference" "Q1"
-			(at 125.73 71.1199 0)
+			(at 128.27 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 125.73 73.6599 0)
+		(property "Value" "2SC4037 NPN"
+			(at 128.27 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Pioneer:TO-220-3"
-			(at 67.31 72.39 0)
+			(at 128.27 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,16 +5301,17 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 72.39 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 130.81 72.39 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5320,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 130.81 72.39 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5329,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 130.81 72.39 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5338,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 130.81 72.39 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 74.93 0)
+		(at 175.26 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5537,7 +5509,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a40521e-0f65-4353-9efc-8deff915e02f")
 		(property "Reference" "#PWR05"
-			(at 175.26 81.28 0)
+			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 80.01 0)
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 74.93 0)
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 74.93 0)
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 74.93 0)
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 97.79 29.2162 0)
 			(effects
 				(font
@@ -6478,7 +6450,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 172.72 62.23 270)
+		(at 172.72 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6486,15 +6458,15 @@
 		(dnp no)
 		(uuid "c4d0fe8f-62bd-4df9-a5c2-a8f2525bd468")
 		(property "Reference" "R1"
-			(at 172.72 55.88 90)
+			(at 172.72 60.96 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 172.72 58.42 90)
+		(property "Value" "2.2ohm"
+			(at 172.72 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 172.72 62.23 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 62.23 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 172.72 62.23 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6602,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "CSB 480E"
 			(at 43.18 69.8499 90)
 			(effects
 				(font
@@ -6954,7 +6926,7 @@
 	)
 	(symbol
 		(lib_id "LED:IRL81A")
-		(at 158.75 62.23 180)
+		(at 158.75 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6962,7 +6934,7 @@
 		(dnp no)
 		(uuid "e7b6cbad-d2ef-4210-a524-02e42b0ad5a3")
 		(property "Reference" "D3"
-			(at 159.258 55.88 0)
+			(at 159.258 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6942,7 @@
 			)
 		)
 		(property "Value" "IRL81A"
-			(at 159.258 58.42 0)
+			(at 159.258 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +6950,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
-			(at 158.75 66.675 0)
+			(at 158.75 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +6959,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
-			(at 160.02 62.23 0)
+			(at 160.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6968,7 @@
 			)
 		)
 		(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
-			(at 158.75 62.23 0)
+			(at 158.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +7060,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 180.34 62.23 270)
+		(at 180.34 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7097,7 +7069,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8e64025-337a-4665-a9e4-6612493c2288")
 		(property "Reference" "#PWR02"
-			(at 176.53 62.23 0)
+			(at 176.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,7 +7078,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 184.15 62.2301 90)
+			(at 184.15 67.3101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 62.23 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 62.23 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 180.34 62.23 0)
+			(at 180.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,8 +7126,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_CommonAnode_AKK")
-		(at 53.34 22.86 0)
+		(lib_id "Device:D_Dual_CommonAnode_KAK_Parallel")
+		(at 44.45 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7164,23 +7136,25 @@
 		(fields_autoplaced yes)
 		(uuid "fc3c55aa-888b-44b5-8d59-0d3258c5557c")
 		(property "Reference" "D1"
-			(at 53.34 16.51 0)
+			(at 49.53 29.2734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "D_Dual_CommonAnode_AKK"
-			(at 53.34 19.05 0)
+		(property "Value" "DAP215"
+			(at 49.53 31.8134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 53.34 22.86 0)
+			(at 44.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 22.86 0)
+			(at 44.45 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7172,7 @@
 			)
 		)
 		(property "Description" "Dual diode, common anode on pin 1"
-			(at 53.34 22.86 0)
+			(at 44.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

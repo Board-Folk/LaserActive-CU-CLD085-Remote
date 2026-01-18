@@ -83,7 +83,7 @@
 	(net 3 "Net-(IC1-OSC-OUT)")
 	(net 4 "Net-(IC1-OSC-IN)")
 	(net 5 "VCC")
-	(net 6 "Net-(D1-A)")
+	(net 6 "Net-(IC1-S-IN)")
 	(net 7 "COL_6")
 	(net 8 "Net-(D3-K)")
 	(net 9 "Net-(D3-A)")
@@ -119,7 +119,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 1.25 3.5 90)
+			(at 5.5754 0.057324 180)
 			(layer "F.Fab")
 			(uuid "bf67f04a-623a-43aa-b590-a520d7ec2af3")
 			(effects
@@ -129,7 +129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -287,7 +287,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Dual_CommonAnode_AKK"
+		(property "Value" "DAP215"
 			(at 2.28 2.2 90)
 			(layer "F.Fab")
 			(uuid "73e872b4-ac90-489e-9d1c-45e7b6152f43")
@@ -298,7 +298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -445,8 +445,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Net-(D1-A)")
-			(pinfunction "A")
+			(net 6 "Net-(IC1-S-IN)")
+			(pinfunction "K")
 			(pintype "passive")
 			(uuid "56310ce0-9889-4bea-a433-1bff585331d9")
 		)
@@ -457,7 +457,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 15 "ROW_6")
-			(pinfunction "K")
+			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a88b7b3f-eecc-488e-9256-b729848338f7")
 		)
@@ -514,7 +514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -735,7 +735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -944,8 +944,8 @@
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 2.54 1.92 90)
+		(property "Value" "2.2ohm"
+			(at -3.799287 -0.003916 180)
 			(layer "F.Fab")
 			(uuid "b59b9a50-2df5-4ba2-84a3-59d3320fe2f9")
 			(effects
@@ -955,7 +955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1119,7 +1119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1339,7 +1339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1503,7 +1503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1723,7 +1723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1966,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2187,7 +2187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2408,7 +2408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2617,8 +2617,8 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
-			(at 8.033016 0.895138 0)
+		(property "Value" "100pF"
+			(at -5.669116 -0.7946 0)
 			(layer "F.Fab")
 			(uuid "dc12f769-b562-4caa-b04f-94315074fc0f")
 			(effects
@@ -2628,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2772,7 +2772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2993,7 +2993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3192,7 +3192,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
-			(at 2.606215 2.768912 180)
+			(at 2.606215 2.768912 0)
 			(layer "F.SilkS")
 			(uuid "b8d22b31-f1cc-4f36-89c0-1f5821bf247f")
 			(effects
@@ -3202,8 +3202,8 @@
 				)
 			)
 		)
-		(property "Value" "NPN"
-			(at -0.743352 2.217483 270)
+		(property "Value" "2SC4037 NPN"
+			(at 2.837035 -4.002488 90)
 			(layer "F.Fab")
 			(uuid "cd68dac4-40ef-48e8-b16d-f81f60a10b2f")
 			(effects
@@ -3214,7 +3214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7129f92-6c28-41d8-96d3-bfc010973cf8")
@@ -3226,7 +3226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f112854b-f7e9-4eff-a6cd-5d5b59769dcd")
@@ -3276,6 +3276,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?126*")
 		(path "/7c7bd514-009e-4d10-82c1-400eade2f72c")
 		(sheetname "/")
 		(sheetfile "LaserActive-CU-CLD085-Remote.kicad_sch")
@@ -3344,7 +3345,7 @@
 			(uuid "1c2979f8-0dfb-4ddb-a944-e9317271860b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -0.95 270)
+			(at 2.54 -0.95 90)
 			(layer "F.Fab")
 			(uuid "2b8ae0ac-4b8a-4395-a87d-131ef45bac40")
 			(effects
@@ -3361,8 +3362,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "Net-(IC1-REM)")
-			(pinfunction "C")
-			(pintype "open_collector")
+			(pinfunction "E")
+			(pintype "passive")
 			(uuid "dc343c1f-c2a9-4321-80cf-d17ae6ec06e3")
 		)
 		(pad "2" thru_hole oval
@@ -3372,8 +3373,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(D3-A)")
-			(pinfunction "B")
-			(pintype "input")
+			(pinfunction "C")
+			(pintype "passive")
 			(uuid "c35f86d4-ad5f-4123-80fb-19d4d4f4033e")
 		)
 		(pad "3" thru_hole oval
@@ -3383,8 +3384,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
-			(pinfunction "E")
-			(pintype "open_emitter")
+			(pinfunction "B")
+			(pintype "input")
 			(uuid "904242c0-82a4-4710-a05c-ebe53c5861a4")
 		)
 		(embedded_fonts no)
@@ -3416,8 +3417,8 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 2.45 3.52 0)
+		(property "Value" "CSB 480E"
+			(at 8.1682 1.6604 0)
 			(layer "F.Fab")
 			(uuid "761c2cac-41bf-48af-af4c-b6049f77de23")
 			(effects
@@ -3427,7 +3428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3657,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3867,7 +3868,7 @@
 			)
 		)
 		(property "Value" "IRL81A"
-			(at 1.27 1.86 0)
+			(at 1.2362 -1.8696 0)
 			(layer "F.Fab")
 			(uuid "bd965c6e-8c10-46f7-ba0f-f4f3279043a3")
 			(effects
@@ -4109,8 +4110,8 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
-			(at 7.606433 1.175037 0)
+		(property "Value" "100pF"
+			(at -5.644856 -1.0278 0)
 			(layer "F.Fab")
 			(uuid "ed938719-43c5-437a-ad76-336599902588")
 			(effects
@@ -4120,7 +4121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4252,7 +4253,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 2.5 -1.931123 90)
 			(layer "F.Fab")
 			(uuid "29553d21-86cd-4d55-a033-946e47a35b5e")
@@ -4263,7 +4264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4427,7 +4428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4648,7 +4649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4868,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5111,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5332,7 +5333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5553,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5774,7 +5775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5984,7 +5985,7 @@
 			)
 		)
 		(property "Value" "D6600CS"
-			(at 3.81 25.19 90)
+			(at 3.81 -2.4578 90)
 			(layer "F.Fab")
 			(uuid "f775e56a-792a-43fd-945d-1bce445e3d40")
 			(effects
@@ -6196,7 +6197,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Net-(D1-A)")
+			(net 6 "Net-(IC1-S-IN)")
 			(pinfunction "S-IN")
 			(pintype "input")
 			(uuid "0429e3d6-6754-4fcd-adbe-0fb245c116e5")
@@ -6430,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6651,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6872,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7093,7 +7094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7314,7 +7315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7535,7 +7536,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7756,7 +7757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7977,7 +7978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
