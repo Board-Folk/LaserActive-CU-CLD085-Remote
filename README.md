@@ -11,7 +11,7 @@ Both THT and SMD caps added, use one or the other.
 
 [**Interactive BOM**][IBOM]
 
-Use board thickness 1.2 mm
+Use board thickness 1.0 mm
 
 [**PCB Gerber**][GERBER]
 
