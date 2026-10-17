@@ -47,4 +47,4 @@ of merchantability and fitness for a particular purpose.
 
 [IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/LaserActive-CU-CLD085-Remote/main/ibom.html
 
-[GERBER]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/LaserActive-CU-CLD085-Remote/main/jlcpcb/production_files/GERBER-LaserActive-CU-CLD085-Remote.zip
+[GERBER]: https://raw.githubusercontent.com/Board-Folk/LaserActive-CU-CLD085-Remote/blob/main/jlcpcb/production_files/GERBER-LaserActive-CU-CLD085-Remote.zip
