@@ -15,7 +15,6 @@ Use board thickness 1.2 mm
 
 [**PCB Gerber**][GERBER]
 
-
 ## Thanks
 
   * Rob Taylor ([@PeepoUK](https://github.com/PeepoUK)) for doing most of
@@ -47,4 +46,4 @@ of merchantability and fitness for a particular purpose.
 
 [IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/LaserActive-CU-CLD085-Remote/main/ibom.html
 
-[GERBER]: https://raw.githubusercontent.com/Board-Folk/LaserActive-CU-CLD085-Remote/blob/main/jlcpcb/production_files/GERBER-LaserActive-CU-CLD085-Remote.zip
+[GERBER]: https://github.com/Board-Folk/LaserActive-CU-CLD085-Remote/raw/refs/heads/main/jlcpcb/production_files/GERBER-LaserActive-CU-CLD085-Remote.zip
