@@ -4,8 +4,10 @@ This repository contains a recreation of the remote control PCB
 for the Laser Active. This recreation was reversed engineering using scanned images of the original
 board's copper layers, so should be a reasonably accurate reproduction.
 
-Both THT and SMD caps added, use one or the other.
+![PCB](images/remote_small.png)
 
+
+Both THT and SMD caps added, use one or the other.
 
 [**Interactive BOM**][IBOM]
 
