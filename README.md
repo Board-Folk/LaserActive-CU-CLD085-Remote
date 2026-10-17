@@ -18,10 +18,10 @@ Use board thickness 1.2 mm
 ## Thanks
 
   * Rob Taylor ([@PeepoUK](https://github.com/PeepoUK)) for doing most of
-    the PCB layout,\
-  * Zaxour 阿宅 (@zaxour) for tweaking and testing\
+    the PCB layout
+  * Zaxour 阿宅 (@zaxour) for tweaking and testing
   * The rest of the Board Folk Team for their support and general
-    coolness.\
+    coolness.
 &nbsp;
 
 ## Legal
